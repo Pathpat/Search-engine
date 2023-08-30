@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <img 
+            src="../../../../../assets/img/Screenshot_1.png" 
+            alt=""
+            />
+        </div>
+       <div class="col-md-10">
+        <div class="input-group">
+            <input 
+            type="text" 
+            class="form-control" 
+            placeholder="Search...."
+            [(ngModel)]="searchTerm" (keydown.enter)="searchWeb()"/> <!--to ngmodel einai leitourgia wste na stelenei to ti grafoume sto searchterm -->
+            <div class="input-group-append">
+                <button type="button" 
+                class="btn btn-outline-secondary"
+                (click)="searchWeb()" >
+                <em class="fa fa-search"></em>
+                </button>
+            </div>
+        </div>
+       </div>
+    </div>
+</div>

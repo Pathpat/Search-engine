@@ -1,0 +1,22 @@
+.results {
+    margin-top: 50px;
+}
+.result {
+    margin-bottom: 30px;
+}
+.result .title {
+    color: #1a24ab;
+    margin: 0px;
+    text-decoration: none;
+}
+.result .fa {
+    font-size: 16px;
+    color: #0cb754;
+}
+.result .url {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+.result p {
+    color: #848382;
+}

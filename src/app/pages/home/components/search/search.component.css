@@ -1,0 +1,16 @@
+img {
+    width: 50px;
+    display: block;
+    margin : 0 auto;
+}
+.input-group {
+    margin-top: 10px;
+}
+.input-group input {
+    border-right: none;
+}
+.input-group .btn {
+    border-radius: 0px;
+    border-left: 0px;
+    border-color: #ced4da;
+}
